@@ -44,6 +44,7 @@ def game_execution()
     until played == 9
         game.tour("X")
         game.tour("O")
+        
         played += 1
     end
 end    

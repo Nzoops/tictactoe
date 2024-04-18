@@ -2,10 +2,8 @@ class BoardVisualizer #for now working, the board displays in the right shape bu
     
     def initialize(hash)
 
-        # hash = { "A1" => "", "A2" => "O", "A3" => "X",
-        # "A4" => "", "A5" => "O", "A6" => "",
-        # "A7" => "", "A8" => "O", "A9" => "" }
-
+        puts "\n"
+        puts "-" * 30
         puts "This is the state of the game"
         puts "|" + "-" * 23 + "|"
         puts "|" + " " * 7 + "|"  + " " * 7 + "|"  + " " * 7 + "|"
@@ -22,7 +20,3 @@ class BoardVisualizer #for now working, the board displays in the right shape bu
         puts "|" + "-" * 23 + "|"
     end 
 end
-
-#hash_test = {"A1"=>"X", "A2"=>"X", "A3"=>"X", "B1"=>"", "B2"=>"", "B3"=>"", "C1"=>"", "C2"=>"", "C3"=>""}
-# try1 = BoardVisualizer.new(hash_test)
-# try1.board_visualizer
